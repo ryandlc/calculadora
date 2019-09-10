@@ -1,16 +1,20 @@
 #Complete as funcoes a seguir
 
 def soma(a, b):
-	#Insira o codigo aqui
+	print(" o resultado é", a + b)
 
 def subtrai(a, b):
-	#Insira o codigo aqui
+	print(" o resultado é", a - b)
 
 def multiplica(a, b):
-	#Insira o codigo aqui
+	print(" o resultado é", a * b)
 
 def divide(a, b):
-	#Insira o codigo aqui
+	if(b == 0):
+		print("não é possivel dividir por 0")
+	else:
+		print(" o resultado é", a / b)
+		
 
 
 #Programa principal
